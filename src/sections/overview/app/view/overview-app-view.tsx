@@ -8,19 +8,18 @@ import Grid from '@mui/material/Unstable_Grid2';
 import { useMockedUser } from 'src/hooks/use-mocked-user';
 
 import { SeoIllustration } from 'src/assets/illustrations';
-import { _appFeatured, _appInvoices, _ecommerceLatestProducts, _orders } from 'src/_mock';
+import { _orders, _appFeatured, _appInvoices, _ecommerceLatestProducts } from 'src/_mock';
 
 import { useSettingsContext } from 'src/components/settings';
 
 import AppWelcome from '../app-welcome';
 import AppFeatured from '../app-featured';
-import AppNewInvoice from '../app-new-invoice';
 import AppAreaInstalled from '../app-area-installed';
 import AppWidgetSummary from '../app-widget-summary';
 import AppCurrentDownload from '../app-current-download';
+import EcommerceLatestOrders from '../../e-commerce/ecommerce-latest-orders';
 import EcommerceCurrentBalance from '../../e-commerce/ecommerce-current-balance';
 import EcommerceLatestProducts from '../../e-commerce/ecommerce-latest-products';
-import EcommerceLatestOrders from '../../e-commerce/ecommerce-latest-orders';
 import EcommerceLatestInvoices from '../../e-commerce/ecommerce-latest-invoices';
 
 // ----------------------------------------------------------------------

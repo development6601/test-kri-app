@@ -1,6 +1,5 @@
 // ----------------------------------------------------------------------
 
-import { _mock } from "./_mock";
 
 export const PRODUCT_GENDER_OPTIONS = [
   { label: 'Men', value: 'Men' },

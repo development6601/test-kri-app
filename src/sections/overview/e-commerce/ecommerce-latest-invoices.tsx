@@ -7,8 +7,8 @@ import ListItemText from '@mui/material/ListItemText';
 
 import { fCurrency } from 'src/utils/format-number';
 
-import Scrollbar from 'src/components/scrollbar';
 import Label from 'src/components/label';
+import Scrollbar from 'src/components/scrollbar';
 
 // ----------------------------------------------------------------------
 
