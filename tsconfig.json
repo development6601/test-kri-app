@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+     "paths": {
+      "src/*": ["src/*"]  // Maps 'src/' to actual 'src/' folder
+    },
     "target": "es5",
     "lib": [
       "dom",
